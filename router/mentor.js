@@ -4,7 +4,7 @@ const DB_URL = process.env.DB_URL;
 const router = express.Router();
 
 router.get('/', (req,res)=>{
-    res.send('<h1>Hi from mentor</h1>')
+    res.send('<h1> mentor</h1>')
 })
 
 router.post('/create-mentor',async (req,res)=>{
