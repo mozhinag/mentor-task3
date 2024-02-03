@@ -3,11 +3,10 @@ const { MongoClient,ObjectId } = require('mongodb');
 const DB_URL = process.env.DB_URL;
 const router = express.Router();
 router.get ('/',(req, res)=>{
-<<<<<<< HEAD
-    res.send(`<h1>student<h1>`)
-=======
+
+
     res.send(`<h1> student<h1>`)
->>>>>>> dd601596c1d2a9d26a488188204b5e4cba1aa10d
+
 })
 
 //Write API to create Student
